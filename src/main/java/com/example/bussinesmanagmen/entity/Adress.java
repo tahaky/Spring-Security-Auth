@@ -34,8 +34,8 @@ public class Adress {
     private String cityName;
     @ManyToOne
     @JsonBackReference
-    @JoinColumn(name = "consumer_id")
-    private Consumer consumer;
+    @JoinColumn(name = "user_id")
+    private UserModel userModel;
 
 
 }
